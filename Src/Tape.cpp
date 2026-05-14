@@ -1,4 +1,4 @@
-#include "Tape.h"
+#include "../Inc/Tape.h"
 
 Tape::Tape(const std::string &path) : path(path) {
     if (std::filesystem::exists(path)) {
