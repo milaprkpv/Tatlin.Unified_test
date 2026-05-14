@@ -12,10 +12,9 @@ int main() {
         cur.dread = D_READ;
         cur.dwrite = D_WRITE;
         cur.dmove = D_MOVE;
-        cur.ram = RAM;
 
         Tape Tape_in(input, cur), Tape_out(output, cur);
-        sort(Tape_in, Tape_out, cur.ram);
+        sort(Tape_in, Tape_out, RAM);
     } 
     catch (std::exception &e) {
         std::cerr << e.what();
