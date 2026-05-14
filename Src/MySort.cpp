@@ -1,4 +1,4 @@
-#include "MySort.h"
+#include "../Inc/MySort.h"
 
 void sort(Tape &input, Tape &output, const int &RAM) {
 
